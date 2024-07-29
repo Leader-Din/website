@@ -5,6 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Custom web site</title>
     <link rel="stylesheet" href="/style.css">
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+}
+.wrapper{
+    background: url(https://assets.wwf.org.au/image/upload/c_fill,g_auto,w_1400/f_auto/q_auto/v1/elcom/416/img-panda-in-tree-1000px?q=75) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background: rgb(0,0,0,0.4);
+}
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+    border-radius: 50%  ;
+}
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 2px 4px;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+/* .navbar ul li a.active
+.navbar ul li a:hover{
+    background-color: red;
+    border-radius: 2px;
+} */
+.active:hover{
+    background: red;
+    border-radius: 5px;
+}
+.conter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.conter h1{
+    color: green;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.conter h2{
+    color: orange;
+    font-size: 70px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+.btn{
+    margin: 35px 28px;
+}
+.btn-f{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-left: 25px;
+}
+.btn-f:hover {
+    background: pink;
+    color: black;
+}
+    </style>
 </head>
 <body>
     <div class="wrapper">
